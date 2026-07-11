@@ -58,6 +58,51 @@ nav-menu {
 }
 
 .hero h1 {
-    font-size: 25px;
+    font-size: 25vw;
     color: #fff;
+}
+
+#fanta {
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+}
+
+#laranja-cortada {
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+    top: 10%;
+    left: 32%;
+}
+
+#laranja {
+    position: absolute;
+    width: 20%;
+    z-index: 3;
+    top: 55%;
+    right: 30%;
+}
+
+#folha {
+    position: absolute;
+    width: 18%;
+    top: 10%;
+    left: 0%;
+    transform: rotate(60deg);
+}
+
+#folha2 {
+    position: absolute;
+    width: 12%;
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+}
+
+#folha3 {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0%;
 }
