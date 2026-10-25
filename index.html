@@ -11,27 +11,69 @@
     <div id="main">
 
         <nav class="nav-container">
-            <a href="#">Logo</a>
+            <a href="#main" class="logo">Fanta</a>
             <div class="nav-menu">
-                <a href="#">Home</a>
-                <a href="#">Produtos</a>
-                <a href="#">Loja</a>
-                <a href="#">Contato</a>
+                <a href="#main">Home</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#sabores">Sabores</a>
+                <a href="#contato">Contato</a>
             </div>
             <img id="menu-btn" src="assets/menu.png" alt="Abrir menu">
         </nav>
 
         <div class="hero">
             <h1>FANTA</h1>
-            <img id="laranja-cortada" src="assets/orange.png">
-            <img id="fanta" src="assets/fanta.png">
-            <img id="laranja" src="assets/orange.png">
-            <img id="folha" src="assets/leaf.png">
-            <img id="folha2" src="assets/leaf2.png">
-            <img id="folha3" src="assets/coconoutleaf.png">
+            <img id="laranja-cortada" alt="" src="assets/orange.png">
+            <img id="fanta" alt="" src="assets/fanta.png">
+            <img id="laranja" alt="" src="assets/orange.png">
+            <img id="folha" alt="" src="assets/leaf.png">
+            <img id="folha2" alt="" src="assets/leaf2.png">
+            <img id="folha3" alt="" src="assets/coconoutleaf.png">
         </div>
 
     </div>
-    
+
+    <section class="produtos" id="produtos">
+        <h2>Escolha o seu lado</h2>
+        <p class="sub">Refrescância que não precisa de comparação.</p>
+        <div class="cards">
+            <article class="card destaque">
+                <img src="assets/fanta.png" alt="Lata de Fanta Laranja">
+                <h3>Fanta Laranja</h3>
+                <p>Sabor intenso e borbulhante, direto da fruta.</p>
+            </article>
+            <article class="card">
+                <img src="assets/cocacola.png" alt="Lata de Coca-Cola">
+                <h3>Coca-Cola</h3>
+                <p>A clássica de sempre.</p>
+            </article>
+            <article class="card">
+                <img src="assets/pepsi.png" alt="Lata de Pepsi">
+                <h3>Pepsi</h3>
+                <p>A concorrente de sempre.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="sabores" id="sabores">
+        <h2>Sabores</h2>
+        <div class="cards">
+            <article class="card">
+                <img src="assets/orange2.png" alt="Laranja">
+                <h3>Laranja</h3>
+            </article>
+            <article class="card">
+                <img src="assets/lemon.png" alt="Limão">
+                <h3>Limão</h3>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer" id="contato">
+        <p>Projeto de estudo inspirado na Fanta. Sem fins comerciais.</p>
+        <p>Feito por <a href="https://github.com/joaobatis1a">João Batista</a></p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
