@@ -12,6 +12,12 @@ Landing page moderna e responsiva inspirada na identidade visual da Fanta, com d
 
 Exercício de estilização e composição visual, sem framework, focado em reproduzir a identidade de marca da Fanta numa página só.
 
+## Funcionalidades
+
+- Hero com parallax ao mover o mouse
+- Seções de produtos e sabores com animação ao rolar
+- Menu responsivo com versão mobile
+
 ## Stack
 
 - **HTML5**
@@ -20,7 +26,7 @@ Exercício de estilização e composição visual, sem framework, focado em repr
 
 ## Como rodar
 
-Os caminhos das imagens são absolutos, então a página precisa ser servida por um servidor local (não funciona abrindo o arquivo direto no navegador):
+Basta abrir o `index.html` no navegador, ou servir localmente:
 
 ```bash
 git clone https://github.com/joaobatis1a/projeto-fanta.git
