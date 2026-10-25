@@ -177,3 +177,68 @@ section h2 {
 .footer a {
     color: #fff;
 }
+
+.nav-container img#menu-btn {
+    display: none;
+    cursor: pointer;
+}
+
+.js .card {
+    opacity: 0;
+    translate: 0 30px;
+    transition: opacity 0.6s, translate 0.6s, transform 0.3s;
+}
+
+.js .card.visible {
+    opacity: 1;
+    translate: 0 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .nav-container img#menu-btn {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+        background: orangered;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .hero h1 {
+        font-size: 30vw;
+    }
+
+    #fanta {
+        width: 70%;
+    }
+
+    #laranja-cortada {
+        width: 25%;
+        left: 10%;
+    }
+
+    #laranja {
+        width: 30%;
+        right: 10%;
+    }
+
+    section h2 {
+        font-size: 8vw;
+    }
+}
