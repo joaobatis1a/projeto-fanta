@@ -1,3 +1,5 @@
+document.documentElement.classList.add('js');
+
 const hero = document.querySelector('.hero');
 const menuBtn = document.getElementById('menu-btn');
 const navMenu = document.querySelector('.nav-menu');
